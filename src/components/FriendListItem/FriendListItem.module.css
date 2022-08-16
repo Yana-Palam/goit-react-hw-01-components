@@ -1,0 +1,18 @@
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.avatar {
+  border-radius: 20%;
+}
+.name {
+}
+.statusGreen {
+  composes: status;
+  background-color: #00ff00;
+}
+.statusRed {
+  composes: status;
+  background-color: #ff0000;
+}

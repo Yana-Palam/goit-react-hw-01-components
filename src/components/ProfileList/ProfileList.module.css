@@ -1,0 +1,19 @@
+.item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #cccccc;
+  flex-basis: calc(100% / 3);
+}
+
+.label {
+  color: #5e5b5b;
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.quantity {
+  color: #000000;
+  display: block;
+  font-weight: 500;
+}
