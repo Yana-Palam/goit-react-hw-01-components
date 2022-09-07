@@ -3,7 +3,6 @@ import s from './Profile.module.css';
 import ProfileList from '../ProfileList/ProfileList';
 
 function Profile({ username, tag, location, avatar, stats }) {
-  // console.log(username);
   return (
     <div key={username} className={s.profile}>
       <div className={s.description}>
